@@ -1,7 +1,7 @@
 #Example model
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
-db = SQLAlchemy()
+from model import db
 
 class Example(db.Model):
     id = db.Column(db.Integer, primary_key=True)
