@@ -5,7 +5,7 @@ from flask_marshmallow import Marshmallow
 app = Flask(__name__)
 
 #sqlalchemy database config, dialect://user:pass@url:port/dbname
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Password123@localhost:5432/Bonsai'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Password123@localhost:5432/template_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
